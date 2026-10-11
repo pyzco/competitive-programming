@@ -1,0 +1,23 @@
+# Configuración local del editor (CLion/JetBrains)
+.idea/
+cmake-build-*/
+
+# Archivos de configuración de CMake (Descomenta si quieres ignorarlos)
+CMakeLists.txt
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Ejecutables y binarios compilados de C++
+*.exe
+*.out
+*.o
+*.a
+*.dll
+*.so
+
+# Archivos de entrada/salida para probar código localmente
+input.txt
+output.txt
+*.in
